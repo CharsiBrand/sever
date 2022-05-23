@@ -7,21 +7,21 @@ import marshal
 try:
     import requests
 except ImportError:
-    print '\n [\xc3\x97] The requests module is not installed!...\n'
+    'print' '\n [\xc3\x97] The requests module is not installed!...\n'
     os.system('pip2 install requests')
 
 
 try:
     import concurrent.futures as concurrent
 except ImportError:
-    print '\n [\xc3\x97] Futures module is not installed yet!...\n'
+    'print' '\n [\xc3\x97] Futures module is not installed yet!...\n'
     os.system('pip2 install futures')
 
 
 try:
     import bs4
 except ImportError:
-    print '\n [\xc3\x97] Bs4 module is not installed yet!...\n'
+    'print' '\n [\xc3\x97] Bs4 module is not installed yet!...\n'
     os.system('pip2 install bs4')
 
 import requests
